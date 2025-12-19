@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+.link {
+            text-decoration: none;
+            transition: all 0.3s ease;
+}
+.link:hover {
+            color:#fb3332;
+            text-shadow: 5px 5px 10px #21464e;
+            border-radius: 10px 0 10px 0;
+}
+
+/* .home-left{
+  background-image: url(assets/image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+} */
+
+.home-right {
+  animation: upDown 2s ease-in-out infinite;
+  /* box-shadow: 1px 1px 50px black; */
+  /* border-radius: 10%;
+  -webkit-animation: upDown 2s ease-in-out infinite;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%; */
+}
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+}
+  50% {
+    transform: translateY(-20px); /* move up */
+  }
+}
+
+.home4-right {
+  animation: upDown 1.5s ease-in-out infinite;
+  -webkit-animation: upDown 1.5s ease-in-out infinite;
+  box-shadow: 1px 1px 40px #6e4324;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+}
+  50% {
+    transform: translateY(-20px); /* move up */
+  }
+}
