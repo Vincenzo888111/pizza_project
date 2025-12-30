@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="bg-[url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)] relative mt-12 bg-cover bg-center w-full md:h-[680px] h-[720px]  px-6 md:px-12 overflow-hidden">
+    <div className="bg-[url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)] relative mt-12 bg-cover bg-center w-full md:h-[780px] h-[720px]  px-6 md:px-12 overflow-hidden">
        <div className="absolute inset-0 bg-orange-700/30">
 <div className="flex md:pl-20 pl-0 justify-between items-center  ">
         {/* LEFT CONTENT */}
@@ -27,8 +28,8 @@ function Home() {
             <button className="bg-orange-500 hover:bg-orange-600 text-white transform hover:scale-105 font-semibold py-3 px-8 rounded-full transition">
               Order Now
             </button>
-            <button className=" bg-white  text-orange-500 hover:bg-orange-500 hover:text-white transform hover:scale-105 font-semibold py-3 px-8 rounded-full transition">
-              View Menu
+            <button  className=" bg-white  text-orange-500 hover:bg-orange-500 hover:text-white transform hover:scale-105 font-semibold py-3 px-8 rounded-full transition">
+              <a href="/Menu1">View Menu</a>
             </button>
           </div>
         </div>
